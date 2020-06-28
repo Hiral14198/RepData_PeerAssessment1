@@ -7,7 +7,7 @@ output:
 
 
 ## Loading and preprocessing the data
-
+activityDT <- data.table::fread(input = "data/activity.csv")
 library("data.table")
 library(ggplot2)
 
